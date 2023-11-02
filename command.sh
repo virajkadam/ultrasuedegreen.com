@@ -10,9 +10,9 @@ git rm -r --cached .
 git add .
 git commit -m "'$1'"
 
-git pull origin master
+git pull origin main
 
 chmod -R 777 ../ultrasuedegreen.com/
 chown -R www-data:www-data ../ultrasuedegreen.com/
 
-git push origin HEAD:master
+git push origin HEAD:main
