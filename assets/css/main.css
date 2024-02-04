@@ -2543,6 +2543,7 @@ section {
   letter-spacing: 1px;
   color: #fff;
   font-family: var(--font-primary);
+  line-height: 1.5;
 }
 
 .footer .footer-info p {
